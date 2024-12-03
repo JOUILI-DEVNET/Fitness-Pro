@@ -42,7 +42,7 @@ Une application moderne de fitness avec une interface utilisateur élégante et 
 
 1. Cloner le repository :
 ```bash
-git clone https://github.com/votre-username/fitness-pro.git
+git clone https://github.com/JOUILI-DEVNET/fitness-pro.git
 ```
 
 2. Installer les dépendances :
@@ -57,7 +57,7 @@ python fitness_app.py
 
 ## 📦 Dépendances
 
-- Python 3.x
+- Python 3.13.0
 - CustomTkinter
 - Pillow (PIL)
 - JSON (intégré à Python)
