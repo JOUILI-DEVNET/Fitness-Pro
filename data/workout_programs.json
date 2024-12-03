@@ -1,0 +1,89 @@
+{
+    "HIIT": {
+        "name": "HIIT Intensif",
+        "description": "Entra\u00eenement par intervalles de haute intensit\u00e9",
+        "durations": [
+            {
+                "time": 15,
+                "name": "15 sec",
+                "calories": 20
+            },
+            {
+                "time": 30,
+                "name": "30 sec",
+                "calories": 40
+            },
+            {
+                "time": 60,
+                "name": "60 sec",
+                "calories": 80
+            }
+        ],
+        "exercises": [
+            {
+                "name": "Burpees",
+                "duration": 30,
+                "rest": 15,
+                "sets": 3
+            }
+        ]
+    },
+    "Cardio": {
+        "name": "Cardio Express",
+        "description": "Session cardio intense",
+        "durations": [
+            {
+                "time": 15,
+                "name": "15 sec",
+                "calories": 15
+            },
+            {
+                "time": 30,
+                "name": "30 sec",
+                "calories": 30
+            },
+            {
+                "time": 60,
+                "name": "60 sec",
+                "calories": 60
+            }
+        ],
+        "exercises": [
+            {
+                "name": "Course sur place",
+                "duration": 120,
+                "rest": 30,
+                "sets": 2
+            }
+        ]
+    },
+    "Force": {
+        "name": "Force & Musculation",
+        "description": "Renforcement musculaire complet",
+        "durations": [
+            {
+                "time": 15,
+                "name": "15 sec",
+                "calories": 18
+            },
+            {
+                "time": 30,
+                "name": "30 sec",
+                "calories": 36
+            },
+            {
+                "time": 60,
+                "name": "60 sec",
+                "calories": 72
+            }
+        ],
+        "exercises": [
+            {
+                "name": "Pompes",
+                "reps": 15,
+                "rest": 45,
+                "sets": 3
+            }
+        ]
+    }
+}

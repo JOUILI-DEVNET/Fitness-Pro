@@ -1,0 +1,126 @@
+{
+    "history": [
+        {
+            "date": "2024-12-03",
+            "workout": "Cardio Express",
+            "completed": true,
+            "calories": 200,
+            "duration": 900,
+            "exercises_completed": 2
+        },
+        {
+            "date": "2024-12-03",
+            "workout": "HIIT Intensif",
+            "duration": "15 min",
+            "completed": true,
+            "calories": 200,
+            "time": 900,
+            "exercises_completed": 3
+        },
+        {
+            "date": "2024-12-03",
+            "workout": "HIIT Intensif",
+            "duration": "15 sec",
+            "completed": true,
+            "calories": 20,
+            "time": 15,
+            "exercises_completed": 1
+        },
+        {
+            "date": "2024-12-03",
+            "workout": "HIIT Intensif",
+            "duration": "15 sec",
+            "completed": true,
+            "calories": 20,
+            "time": 15,
+            "exercises_completed": 1
+        },
+        {
+            "date": "2024-12-03",
+            "workout": "Cardio Express",
+            "duration": "15 sec",
+            "completed": true,
+            "calories": 15,
+            "time": 15,
+            "exercises_completed": 1
+        },
+        {
+            "date": "2024-12-03",
+            "workout": "HIIT Intensif",
+            "duration": "15 sec",
+            "completed": true,
+            "calories": 20,
+            "time": 15,
+            "exercises_completed": 1
+        },
+        {
+            "date": "2024-12-03",
+            "workout": "HIIT Intensif",
+            "duration": "15 sec",
+            "completed": true,
+            "calories": 20,
+            "time": 15,
+            "exercises_completed": 1
+        },
+        {
+            "date": "2024-12-03",
+            "workout": "HIIT Intensif",
+            "duration": "15 sec",
+            "completed": true,
+            "calories": 20,
+            "time": 15,
+            "exercises_completed": 1
+        },
+        {
+            "date": "2024-12-03",
+            "workout": "Cardio Express",
+            "duration": "15 sec",
+            "completed": true,
+            "calories": 15,
+            "time": 15,
+            "exercises_completed": 1
+        },
+        {
+            "date": "2024-12-03",
+            "workout": "HIIT Intensif",
+            "duration": "15 sec",
+            "completed": true,
+            "calories": 20,
+            "time": 15,
+            "exercises_completed": 1
+        },
+        {
+            "date": "2024-12-03",
+            "workout": "TIR  ",
+            "duration": "15 sec",
+            "completed": true,
+            "calories": 20,
+            "time": 15,
+            "exercises_completed": 0
+        },
+        {
+            "date": "2024-12-03",
+            "workout": "HIIT Intensif",
+            "duration": "15 sec",
+            "completed": true,
+            "calories": 20,
+            "time": 15,
+            "exercises_completed": 1
+        }
+    ],
+    "stats": {
+        "total_workouts": 12,
+        "total_calories": 590,
+        "streak": 1,
+        "best_streak": 0,
+        "last_workout_date": "2024-12-03"
+    },
+    "achievements": [],
+    "workout_counts": {
+        "HIIT": 8,
+        "Cardio": 3,
+        "Force": 0,
+        "Yoga": 0,
+        "Stretching": 0
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "workouts": [
+        {
+            "name": "Débutant",
+            "exercises": [
+                {
+                    "name": "Pompes",
+                    "reps": 10,
+                    "duration": 30,
+                    "calories": 8,
+                    "image": "pushup.png"
+                },
+                {
+                    "name": "Squats",
+                    "reps": 15,
+                    "duration": 45,
+                    "calories": 12,
+                    "image": "squat.png"
+                }
+            ]
+        },
+        {
+            "name": "Intermédiaire",
+            "exercises": [
+                {
+                    "name": "Burpees",
+                    "reps": 12,
+                    "duration": 60,
+                    "calories": 15,
+                    "image": "burpee.png"
+                }
+            ]
+        }
+    ]
+}

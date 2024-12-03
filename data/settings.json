@@ -1,0 +1,21 @@
+{
+    "user": {
+        "name": "SAMI",
+        "age": 25,
+        "weight": 70,
+        "height": 182,
+        "goal": "muscle"
+    },
+    "app": {
+        "theme": "dark",
+        "language": "fr",
+        "notifications": true,
+        "sound": true,
+        "daily_goal": 500
+    },
+    "workout": {
+        "rest_time": 30,
+        "countdown": true,
+        "voice_guide": true
+    }
+}
