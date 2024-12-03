@@ -15,7 +15,7 @@ class ModernFitnessApp:
         
         # Fenêtre principale
         self.window = ctk.CTk()
-        self.window.title("FITNESS PRO ELITE 2024")
+        self.window.title("FITNESS PRO")
         self.window.geometry("1400x800")
         
         # Couleurs modernes
@@ -452,6 +452,10 @@ class ModernFitnessApp:
         self.create_sidebar()
 
     def toggle_timer(self):
+        """Démarre ou met en pause le minuteur"""
+        if not hasattr(self, 'start_button'):
+            return
+        
         if self.timer_running:
             self.timer_running = False
             self.start_button.configure(text="REPRENDRE")
@@ -584,9 +588,9 @@ class ModernFitnessApp:
     def start_animation(self):
         def animate():
             self.progress = (self.progress + 2) % 360
-            r = int(abs(math.sin(math.radians(self.progress))) * 255)
-            g = int(abs(math.sin(math.radians(self.progress + 120))) * 255)
-            b = int(abs(math.sin(math.radians(self.progress + 240))) * 255)
+            r = int(abs(math.sin(math.radians(self.progress))) * 255)  # Ajout de la parenthèse fermante
+            g = int(abs(math.sin(math.radians(self.progress + 120))) * 255)  # Ajout de la parenthèse fermante
+            b = int(abs(math.sin(math.radians(self.progress + 240))) * 255)  # Ajout de la parenthèse fermante
             color = f'#{r:02x}{g:02x}{b:02x}'
             self.logo_label.configure(text_color=color)
             self.window.after(50, animate)
@@ -1127,6 +1131,10 @@ class ModernFitnessApp:
                 font=("Roboto", 16),
                 text_color=self.colors['secondary']
             ).pack(pady=20)
+
+    def show_error_dialog(self, message):
+        """Affiche une boîte de dialogue d'erreur"""
+        messagebox.showerror("Erreur", message)
 
 if __name__ == "__main__":
     app = ModernFitnessApp()
